@@ -1,0 +1,23 @@
+*** CONNECT EITHER WAY ***
+
+john@john:~/Android/Sdk/platform-tools$ ./adb connect 10.0.0.67
+
+john@john:/opt/platform-tools_r34.0.1-linux/platform-tools$ ./adb connect 10.0.0.67
+
+*** VIEW CONNECTED DEVICES ***
+
+./adb devices
+
+*** SHELL CONNECTION ***
+
+/.adb shell
+
+*** SAMPLE COMMANDS ***
+
+--- Sets Screen Saver to Start After Two Weeks of Idle ---
+
+settings put system screen_off_timeout 604800000
+
+--- Sets Sleep Time to NEVER ---
+
+settings put secure sleep_timeout 0
